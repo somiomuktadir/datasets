@@ -1,0 +1,72 @@
+
+=== DIRECTORY TREE (max depth 3, source files only) ===
+docs
+docs/codebase
+docs/codebase/.codebase-scan.txt
+impact_analysis.ipynb
+impact_report.md
+impact_study.csv
+visualizations
+visualizations/ai_vs_gpa.png
+visualizations/correlation_heatmap.png
+visualizations/feature_importance.png
+visualizations/gpa_distribution.png
+visualizations/student_segments.png
+visualizations/tool_impact.png
+
+=== STACK DETECTION (manifest files) ===
+No recognized manifest files found in project root.
+
+=== ENTRY POINTS ===
+No common entry points found. Check 'main' or 'scripts.start' in manifest files above.
+
+=== LINTING AND FORMATTING CONFIG ===
+No linting or formatting config files found in project root.
+
+=== ENVIRONMENT VARIABLE TEMPLATES ===
+No .env.example or .env.template found. Identify required environment variables by searching the code and config for environment variable reads.
+
+=== TODO / FIXME / HACK (production code only, test dirs excluded) ===
+None found.
+
+=== GIT RECENT COMMITS (last 20) ===
+No commits found.
+
+=== HIGH-CHURN FILES (last 90 days, top 20) ===
+None found.
+
+=== MONOREPO SIGNALS ===
+No monorepo signals detected.
+
+=== CODE METRICS ===
+Total files scanned: 10
+Total lines of code: 0
+
+Files by language:
+  Other: 10
+
+Top 10 largest files:
+impact_study.csv: 1142.7KB
+visualizations/student_segments.png: 580.5KB
+visualizations/ai_vs_gpa.png: 452.0KB
+visualizations/correlation_heatmap.png: 148.6KB
+visualizations/feature_importance.png: 44.7KB
+visualizations/tool_impact.png: 27.9KB
+visualizations/gpa_distribution.png: 23.8KB
+impact_analysis.ipynb: 6.8KB
+impact_report.md: 4.5KB
+docs/codebase/.codebase-scan.txt: 0.0KB
+
+=== CI/CD PIPELINES ===
+No CI/CD pipelines detected.
+
+=== CONTAINERS & ORCHESTRATION ===
+No containerization configs detected.
+
+=== SECURITY & COMPLIANCE ===
+No security configs detected.
+
+=== PERFORMANCE & TESTING ===
+No performance testing configs detected.
+
+=== SCAN COMPLETE ===
