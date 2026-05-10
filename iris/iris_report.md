@@ -9,6 +9,8 @@ This report presents a comprehensive biological and statistical analysis of the 
 ---
 
 ## 2. Key Morphological Indicators
+![Iris Distributions](visualizations/iris_distributions.png)
+
 Our baseline analysis of the iris population reveals distinct size distributions across the four measured features:
 
 *   **Average Sepal Dimensions:** **5.84 cm** length and **3.06 cm** width.
@@ -19,6 +21,8 @@ Our baseline analysis of the iris population reveals distinct size distributions
 ---
 
 ## 3. Feature Correlation & Significance
+![Correlation Heatmap](visualizations/correlation_heatmap.png)
+
 Using correlation analysis, we've identified strong relationships between different morphological traits.
 
 ### The Petal-Sepal Link
@@ -28,6 +32,8 @@ Using correlation analysis, we've identified strong relationships between differ
 ---
 
 ## 4. Morphological Segmentation (The Three Clusters)
+![Iris Clusters](visualizations/iris_clusters.png)
+
 Using K-Means clustering (K=3), we analyzed how well the morphological data aligns with biological classifications:
 
 1.  **Cluster 1: The Distinct Group (Setosa)**
@@ -59,4 +65,10 @@ Based on the integrated analysis, we recommend the following for botanical study
 1.  **Prioritize Petal Measurements:** Focus field classification efforts on petal length and width, as they offer the highest discriminating power.
 2.  **Refine Versicolor/Virginica Boundary:** Given the overlap in Cluster 0 and 2, additional features (e.g., color intensity or DNA barcoding) may be required to perfectly differentiate these two varieties.
 3.  **Simplified Models:** Implement a decision-tree based approach using Petal Width as the primary split point for rapid field identification.
-4.  **Longitudinal Monitoring:** Continue tracking these morphological benchmarks to detect any shifts in population characteristics over time.
+4. **Longitudinal Monitoring:** Continue tracking these morphological benchmarks to detect any shifts in population characteristics over time.
+
+---
+
+### Appendix: Comprehensive Pairplot
+![Pairplot](visualizations/pairplot.png)
+

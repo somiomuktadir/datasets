@@ -9,6 +9,8 @@ This report provides a multi-dimensional analysis of how Generative AI tools are
 ---
 
 ## 2. Key Academic Indicators
+![GPA Distribution](visualizations/gpa_distribution.png)
+
 Our analysis of the student population reveals a diverse but high-performing demographic:
 *   **Average Semester GPA:** **3.25** (Stability across most demographics).
 *   **AI Adoption Rate:** **92.6%** of students are current AI users.
@@ -18,6 +20,8 @@ Our analysis of the student population reveals a diverse but high-performing dem
 ---
 
 ## 3. Tool Efficacy & Technical Literacy
+![AI vs GPA](visualizations/ai_vs_gpa.png)
+
 We moved beyond general usage to understand which tools and skills drive the best outcomes.
 
 ### Technical Literacy (The "Hallucination" Gap)
@@ -26,6 +30,8 @@ The ability to detect AI hallucinations and use tools skillfully are the stronge
 *   **Critical Thinking:** The data suggests that AI usage does not inherently reduce critical thinking; rather, it shifts the focus toward problem-solving and synthesis.
 
 ### Primary Tool Impact
+![Tool Impact](visualizations/tool_impact.png)
+
 Different AI tools show slight variances in average GPA outcomes:
 *   **GitHub Copilot & Claude:** Users of these tools show slightly higher academic performance metrics, likely due to their specialized nature in coding and nuanced reasoning.
 *   **ChatGPT & Gemini:** Remain the most popular "generalist" tools with consistent, average performance across the board.
@@ -33,6 +39,8 @@ Different AI tools show slight variances in average GPA outcomes:
 ---
 
 ## 4. Student Segmentation (Strategic Tiers)
+![Student Segments](visualizations/student_segments.png)
+
 Using K-Means clustering, we identified three distinct student personas:
 
 1.  **Segment 0: The High-Efficiency Users (Green)** 
@@ -50,7 +58,14 @@ Using K-Means clustering, we identified three distinct student personas:
 ---
 
 ## 5. Predictive Modeling Insights
+![Feature Importance](visualizations/feature_importance.png)
+
 We developed a Random Forest model to identify the true levers of academic success in the AI era.
+
+---
+
+### Appendix: Correlation Analysis
+![Correlation Heatmap](visualizations/correlation_heatmap.png)
 
 *   **Top Predictors for GPA:**
     1.  **Literacy Usage Skill:** The most critical factor; how you use the tool matters more than which tool you use.
